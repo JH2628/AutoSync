@@ -24,3 +24,7 @@
 ## faker2 backup 2022/01/29 23:34
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|gua_|jddj_|getJDCookie" "activity|backUp|Coupon" "^jd[^_]|USER|sendNotify|function|utils|JDJRValidator_|ZooFaker|^sign" "faker2-backup"
+    
+## ccwav backup
+
+    ql repo https://github.com/JH2628/AutoSync.git "jd_" "NoUsed" "ql|sendNotify|utils|USER_AGENTS|jdCookie|JS_USER_AGENTS" "ccwav-backup"
