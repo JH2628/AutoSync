@@ -1,6 +1,7 @@
 name: faker2-backup-sync
 on:
   schedule:
+    - cron: '46 * * * *'
   workflow_dispatch:
   watch:
     types: started
