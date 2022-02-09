@@ -1,3 +1,5 @@
+[![Page Views Count](https://badges.toozhao.com/badges/01FVFWHTPMF5JQEWK1AW75VNAE/green.svg)](https://badges.toozhao.com/stats/01FVFWHTPMF5JQEWK1AW75VNAE "Get your own page views count badge on badges.toozhao.com")
+
 # AutoSync
 
 
