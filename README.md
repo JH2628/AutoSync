@@ -3,7 +3,7 @@
 
 ## https://github.com/bullfly666/percollect/tree/main
 
-    ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|jdCookie" "backUp|icon" "^jd[^_]|USER|sendNotify|sign_graphics_validate|JDJR|JDSign|ql" "bullfly666"
+    ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_" "backUp|icon" "^jd[^_]|USER|sendNotify|sign_graphics_validate|JDJR|JDSign|ql" "bullfly666"
 
 ## https://github.com/JDHelloWorld/jd_scripts
 
