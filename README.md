@@ -2,6 +2,9 @@
 
 # AutoSync
 
+## https://github.com/KingRan/KR
+
+    ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|jdCookie" "activity|backUp" "^jd[^_]|USER|utils|function|sign|sendNotify|ql|JDJR" "KingRan"
 
 ## https://github.com/okyyds/yydspure/tree/master
 
