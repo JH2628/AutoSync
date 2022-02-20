@@ -10,7 +10,7 @@
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|gua_|jddj_|jdCookie" "activity|backUp" "^jd[^_]|USER|function|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate|ql|JDSignValidator" "okyyds"
     
-## https://github.com/bullfly666/percollect/tree/main
+## https://github.com/bullfly666/percollect/tree/main 已卒
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_" "backUp|icon" "^jd[^_]|USER|sendNotify|sign_graphics_validate|JDJR|JDSign|ql" "bullfly666"
 
