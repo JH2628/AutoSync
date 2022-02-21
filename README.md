@@ -12,6 +12,8 @@
 
 自己本人目前在用的是 okyyds的日常脚本 + KingRan开卡脚本 + JDHelloWorld的几个自动上传助力码到助力池的脚本
 
+国内机拉库需挂代理，可用本人利用CF免费资源搭建的代理 https://i.gitcf.workers.dev/
+
 # AutoSync
 
 ## https://github.com/KingRan/KR
