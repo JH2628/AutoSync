@@ -1,5 +1,7 @@
 [![Page Views Count](https://badges.toozhao.com/badges/01FVFWHTPMF5JQEWK1AW75VNAE/green.svg)](https://badges.toozhao.com/stats/01FVFWHTPMF5JQEWK1AW75VNAE "Get your own page views count badge on badges.toozhao.com")
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=JH2628)](https://github.com/anuraghazra/github-readme-stats)
+
 为了避免各位大佬删库或者给封库找不到组织，下面搜集备份了各位大佬的京东脚本，每1小时拉取一次，感谢各位大佬的付出。
 
 以下脚本全无修改，原封不动的拉取原仓库。各位朋友也可以fork本仓库，然后拉取脚本到自己的仓库，以免给各位大佬添加麻烦。
