@@ -42,7 +42,7 @@
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|jddj_|gua_|getJDCookie|wskey" "activity|backUp" "^jd[^_]|USER|utils|ZooFaker_Necklace|JDJRValidator_|sign_graphics_validate|jddj_cookie|function|ql|magic|JDJR|JD" "gys619"
 
-## https://github.com/passerby-b/JDDJ
+## https://github.com/passerby-b/JDDJ 已卒
 
     ql repo https://github.com/JH2628/AutoSync.git "jddj_" "_getck" "^jd[^_]|jddj_cookie|sendNotify" "passerby-b"
 
