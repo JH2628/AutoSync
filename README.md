@@ -10,11 +10,19 @@
 
     ql repo https://github.com/自己的仓库地址/库名称 + 参数
 
-自己本人目前在用的是 okyyds的日常脚本 + KingRan开卡脚本 + JDHelloWorld的几个自动上传助力码到助力池的脚本
+自己本人目前在用的是 faker的日常脚本 + KingRan开卡脚本 + JDHelloWorld的几个自动上传助力码到助力池的脚本
 
 国内机拉库需挂代理，可用本人利用CF免费资源搭建的代理 https://i.gitcf.workers.dev/
 
 # AutoSync
+
+## https://github.com/shufflewzc/faker2/tree/main
+
+    ql repo https://github.com/JH2628/AutoSync.git  "jd_|jx_|gua_|jddj_|jdCookie" "activity|backUp" "^jd[^_]|USER|function|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate|ql|JDSignValidator" "faker2"
+
+## https://github.com/shufflewzc/faker3/tree/main
+
+    ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|gua_|jddj_|jdCookie" "activity|backUp" "^jd[^_]|USER|function|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate|ql|JDSignValidator" "faker3"
 
 ## https://github.com/KingRan/KR
 
@@ -48,7 +56,7 @@
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|getJDCookie" "activity|backUp|jd_delCoupon" "^jd[^_]|USER|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate" "he1pu"
 
-## faker2 backup 2022/01/29 23:34
+~~## faker2 backup 2022/01/29 23:34~~ faker 已重开仓库
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|gua_|jddj_|getJDCookie" "activity|backUp|Coupon" "^jd[^_]|USER|sendNotify|function|utils|JDJRValidator_|ZooFaker|^sign" "faker2-backup"
     
