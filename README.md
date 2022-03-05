@@ -8,7 +8,7 @@
 
 下面的青龙拉取地址需改为自己的仓库地址
 
-    ql repo https://github.com/自己的仓库地址/库名称 + 参数
+    ql repo https://github.com/自己的仓库地址/AutoSync.git + “参数” + "库名称”
 
 自己本人目前在用的是 faker的日常脚本 + KingRan开卡脚本 + JDHelloWorld的几个自动上传助力码到助力池的脚本
 
@@ -24,6 +24,10 @@
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|gua_|jddj_|jdCookie" "activity|backUp" "^jd[^_]|USER|function|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate|ql|JDSignValidator" "faker3"
 
+## https://github.com/ccwav/QLScript2 （青龙2.10.3之后版本拉库命令，包含sendNotify）
+
+    ql repo https://github.com/JH2628/AutoSync.git  "jd_" "NoUsed" "ql|sendNotify|utils|USER_AGENTS|jdCookie|JS_USER_AGENTS" "ccwav"
+
 ## https://github.com/KingRan/KR
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|jdCookie" "activity|backUp" "^jd[^_]|USER|utils|function|sign|sendNotify|ql|JDJR" "KingRan"
@@ -36,7 +40,7 @@
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|gua_|jddj_|jdCookie" "activity|backUp" "^jd[^_]|USER|function|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate|ql|JDSignValidator" "okyyds"
     
-## https://github.com/bullfly666/percollect/tree/main 已删库 2022/02/19
+## ~~https://github.com/bullfly666/percollect/tree/main 已删库 2022/02/19
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_" "backUp|icon" "^jd[^_]|USER|sendNotify|sign_graphics_validate|JDJR|JDSign|ql" "bullfly666"
 
@@ -48,7 +52,7 @@
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|jddj_|gua_|getJDCookie|wskey" "activity|backUp" "^jd[^_]|USER|utils|ZooFaker_Necklace|JDJRValidator_|sign_graphics_validate|jddj_cookie|function|ql|magic|JDJR|JD" "gys619"
 
-## https://github.com/passerby-b/JDDJ 已删库 2022/02/23
+## ~~https://github.com/passerby-b/JDDJ 已删库 2022/02/23
 
     ql repo https://github.com/JH2628/AutoSync.git "jddj_" "_getck" "^jd[^_]|jddj_cookie|sendNotify" "passerby-b"
 
