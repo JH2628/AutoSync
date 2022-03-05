@@ -16,17 +16,17 @@
 
 # AutoSync
 
-## https://github.com/shufflewzc/faker2/tree/main
+## https://github.com/shufflewzc/faker2/tree/main （含助力池）
 
     ql repo https://github.com/JH2628/AutoSync.git  "jd_|jx_|gua_|jddj_|jdCookie" "activity|backUp" "^jd[^_]|USER|function|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate|ql|JDSignValidator" "faker2"
 
-## https://github.com/shufflewzc/faker3/tree/main
+## https://github.com/shufflewzc/faker3/tree/main （不含助力池）
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|gua_|jddj_|jdCookie" "activity|backUp" "^jd[^_]|USER|function|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate|ql|JDSignValidator" "faker3"
 
 ## https://github.com/ccwav/QLScript2 （青龙2.10.3之后版本拉库命令，包含sendNotify）
 
-    ql repo https://github.com/JH2628/AutoSync.git  "jd_" "NoUsed" "ql|sendNotify|utils|USER_AGENTS|jdCookie|JS_USER_AGENTS" "ccwav"
+    ql repo https://github.com/JH2628/AutoSync.git "jd_" "NoUsed" "ql|sendNotify|utils|USER_AGENTS|jdCookie|JS_USER_AGENTS" "ccwav"
 
 ## https://github.com/KingRan/KR
 
