@@ -40,7 +40,7 @@
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|gua_|jddj_|jdCookie" "activity|backUp" "^jd[^_]|USER|function|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate|ql|JDSignValidator" "okyyds"
     
-## ~~https://github.com/bullfly666/percollect/tree/main 已删库 2022/02/19
+## ~~https://github.com/bullfly666/percollect/tree/main~~ 已删库 2022/02/19
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_" "backUp|icon" "^jd[^_]|USER|sendNotify|sign_graphics_validate|JDJR|JDSign|ql" "bullfly666"
 
@@ -52,7 +52,7 @@
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|jddj_|gua_|getJDCookie|wskey" "activity|backUp" "^jd[^_]|USER|utils|ZooFaker_Necklace|JDJRValidator_|sign_graphics_validate|jddj_cookie|function|ql|magic|JDJR|JD" "gys619"
 
-## ~~https://github.com/passerby-b/JDDJ 已删库 2022/02/23
+## ~~https://github.com/passerby-b/JDDJ~~ 已删库 2022/02/23
 
     ql repo https://github.com/JH2628/AutoSync.git "jddj_" "_getck" "^jd[^_]|jddj_cookie|sendNotify" "passerby-b"
 
@@ -64,6 +64,6 @@
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|gua_|jddj_|getJDCookie" "activity|backUp|Coupon" "^jd[^_]|USER|sendNotify|function|utils|JDJRValidator_|ZooFaker|^sign" "faker2-backup"
     
-## ccwav backup
+~~## ccwav backup~~ ccwav 已重开仓库
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_" "NoUsed" "ql|sendNotify|utils|USER_AGENTS|jdCookie|JS_USER_AGENTS" "ccwav-backup"
