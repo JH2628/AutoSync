@@ -16,11 +16,11 @@
 
 # AutoSync
 
-https://github.com/shufflewzc/faker2/tree/main （含助力池）
+## https://github.com/shufflewzc/faker2/tree/main （含助力池）
 
     ql repo https://github.com/JH2628/AutoSync.git  "jd_|jx_|gua_|jddj_|jdCookie" "activity|backUp" "^jd[^_]|USER|function|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate|ql|JDSignValidator" "faker2"
 
-https://github.com/shufflewzc/faker3/tree/main （不含助力池）
+## https://github.com/shufflewzc/faker3/tree/main （不含助力池）
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|gua_|jddj_|jdCookie" "activity|backUp" "^jd[^_]|USER|function|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate|ql|JDSignValidator" "faker3"
 
