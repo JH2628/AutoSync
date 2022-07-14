@@ -487,7 +487,7 @@ async function showMsg() {
 }
 function readShareCode() {
   return new Promise(async resolve => {
-    $.get({ url: process.env.JD_ZLC_URL + `/pet`, 'timeout': 10000}, (err, resp, data) => {
+    $.get({ url: JD_ZLC_URL + `/pet`, 'timeout': 10000}, (err, resp, data) => {
       try {
         if (err) {
           console.log(`${JSON.stringify(err)}`)
