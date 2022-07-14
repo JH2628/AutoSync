@@ -565,6 +565,7 @@ async function plantBeanIndex() {
   $.plantBeanIndexResult = await request('plantBeanIndex');//plantBeanIndexBody
 }
 function readShareCode() {
+  console.log(`当前使用助力池${JD_ZLC_URL}`)
   return new Promise(async resolve => {
     $.get({ url: JD_ZLC_URL +`/bean`, timeout: 10000}, (err, resp, data) => {
       try {
