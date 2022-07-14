@@ -42,6 +42,7 @@ let shareCodes = [ // IOS本地脚本用户这个列表填入你要助力的好�
   'mlrdw3aw26j3xc6xycqtc74umufg2kphl3yfaxy@4npkonnsy7xi3ii7u6y52byc4urucexhl2wh2pq@olmijoxgmjutydymkyc56wollvia4yorekjt5ky@q7knrx5fitalyburqkflsm4jjq3h7wlwy7o5jii@4npkonnsy7xi2dkkbvl643342m5of4rpapky3ha@u72q4vdn3zes3byfckc62jqcbkxq3wtymnzrz2i@e7lhibzb3zek3ziaj5fstdr2qbxofrnt63pxzpq@fn5sjpg5zdejmpxw4mttxyyppqmy3t6eveppesy@hjkb2bbfm2bdr7lxto2hvcagyq3h7wlwy7o5jii',
 ]
 const ZLC = !(process.env.JD_JOIN_ZLC && process.env.JD_JOIN_ZLC === 'false')
+const JD_ZLC_URL=process.env.JD_ZLC_URL?process.env.JD_ZLC_URL:"http://zlc1.chaoyi996.com:8880";
 let allMessage = ``;
 let currentRoundId = null;//本期活动id
 let lastRoundId = null;//上期id
@@ -565,7 +566,7 @@ async function plantBeanIndex() {
 }
 function readShareCode() {
   return new Promise(async resolve => {
-    $.get({ url: process.env.JD_ZLC_URL+`/bean`, timeout: 10000}, (err, resp, data) => {
+    $.get({ url: JD_ZLC_URL +`/bean`, timeout: 10000}, (err, resp, data) => {
       try {
         if (err) {
           console.log(`${JSON.stringify(err)}`)
