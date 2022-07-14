@@ -8,6 +8,8 @@
 互助码shareCode请先手动运行脚本查看打印可看到
 一天只能帮助3个人。多出的助力码无效
 
+//Chris 2022-7-14 修改助力池URL，增加默认值
+
 // zero205：已添加自己账号内部互助，有剩余助力次数再帮我助力
 
 ==========================Quantumultx=========================
@@ -48,6 +50,7 @@ const JD_API_HOST = 'https://api.m.jd.com/client.action';
 const urlSchema = `openjd://virtual?params=%7B%20%22category%22:%20%22jump%22,%20%22des%22:%20%22m%22,%20%22url%22:%20%22https://h5.m.jd.com/babelDiy/Zeus/3KSjXqQabiTuD1cJ28QskrpWoBKT/index.html%22%20%7D`;
 $.newShareCode = [];
 const ZLC = !(process.env.JD_JOIN_ZLC && process.env.JD_JOIN_ZLC === 'false')
+const JD_ZLC_URL=process.env.JD_ZLC_URL?process.env.JD_ZLC_URL:"http://zlc1.chaoyi996.com:8880";
 !(async () => {
   if (!process.env.JD_JOIN_ZLC) {
     console.log(`【注意】本脚本默认会给助力池进行助力！\n如需加入助力池请添加TG群：https://t.me/jd_zero_205\n如不加入助力池互助，可添加变量名称：JD_JOIN_ZLC，变量值：false\n`)
@@ -1372,7 +1375,8 @@ function timeFormat(time) {
 }
 function readShareCode() {
   return new Promise(async resolve => {
-    $.get({ url: process.env.JD_ZLC_URL+`/farm`, timeout: 10000,}, (err, resp, data) => {
+    console.log(`当前使用助力池${JD_ZLC_URL}`)
+    $.get({ url: JD_ZLC_URL +`/farm`, timeout: 10000,}, (err, resp, data) => {
       try {
         if (err) {
           console.log(`${JSON.stringify(err)}`)
