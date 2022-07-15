@@ -1373,10 +1373,10 @@ function timeFormat(time) {
   }
   return date.getFullYear() + '-' + ((date.getMonth() + 1) >= 10 ? (date.getMonth() + 1) : '0' + (date.getMonth() + 1)) + '-' + (date.getDate() >= 10 ? date.getDate() : '0' + date.getDate());
 }
-function readShareCode() {
+function readShareCode(code) {
   return new Promise(async resolve => {
     console.log(`当前使用助力池${JD_ZLC_URL}`)
-    $.get({ url: JD_ZLC_URL +`/farm`, timeout: 10000,}, (err, resp, data) => {
+    $.get({ url: JD_ZLC_URL +`/farm?code=`+code, timeout: 10000,}, (err, resp, data) => {
       try {
         if (err) {
           console.log(`${JSON.stringify(err)}`)
@@ -1438,7 +1438,8 @@ function shareCodesFormat() {
     if (!ZLC) {
       console.log(`您设置了不加入助力池，跳过\n`)
     } else {
-      const readShareCodeRes = await readShareCode();
+       
+      const readShareCodeRes = await readShareCode(jdFruitShareArr[$.index - 1]);
       if (readShareCodeRes && readShareCodeRes.code === 200) {
         newShareCodes = [...new Set([...newShareCodes, ...(readShareCodeRes.data || [])])];
       }
