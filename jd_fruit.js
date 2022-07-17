@@ -24,10 +24,11 @@ cron "20 4,16 * * *" script-path=jd_fruit_help.js,tag=东东农场内部互助
 export DO_TEN_WATER_AGAIN="" 默认再次浇水
 
 */
-const JD_ZLC_URL=process.env.JD_ZLC_URL?process.env.JD_ZLC_URL:"http://zlc1.chaoyi996.com:8880";
-if (JD_ZLC_URL =='http://150.230.202.36:8880'){
-    JD_ZLC_URL = "http://zlc1.chaoyi996.com:8880"
+zlcurl=process.env.JD_ZLC_URL?process.env.JD_ZLC_URL:"http://zlc1.chaoyi996.com:8880";
+if (zlcurl == 'http://150.230.202.36:8880'){
+    zlcurl = "http://zlc1.chaoyi996.com:8880"
 }
+const JD_ZLC_URL = zlcurl
 
 const $ = new Env('东东农场');
  $.jdFruitShareArr = []
