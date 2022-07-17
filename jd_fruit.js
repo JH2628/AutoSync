@@ -29,7 +29,7 @@ if (JD_ZLC_URL == 'http://8.210.210.146:52400'){
     JD_ZLC_URL = "http://zlc1.chaoyi996.com:8880"
 }
 
-const $ = new Env('东东农场内部水滴互助');
+const $ = new Env('东东农场');
  $.jdFruitShareArr = []
 let cookiesArr = [],
     cookie = '',
