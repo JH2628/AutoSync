@@ -30,9 +30,9 @@ if (JD_ZLC_URL == 'http://8.210.210.146:52400'){
 }
 
 const $ = new Env('东东农场内部水滴互助');
+ $.jdFruitShareArr = []
 let cookiesArr = [],
     cookie = '',
-    jdFruitShareArr = [],
     isBox = false,
     notify, allMessage = '';
 //助力好友分享码(最多3个,否则后面的助力失败),原因:京东农场每人每天只有3次助力机会
@@ -97,7 +97,7 @@ let NoNeedCodes = [];
               option = {};
               $.retry = 0;
 			  llgetshare = false;
-              await GetCollect();
+            //   await GetCollect();
 			  if(llgetshare){
 				  await $.wait(5000);
 				  lnrun++;				  
@@ -167,6 +167,8 @@ async function jdFruit() {
     try {
         await initForFarm();
         if ($.farmInfo.farmUserPro) {
+            $.jdFruitShareArr.push($.farmInfo.farmUserPro.shareCode)
+            await GetCollect();
                 // option['media-url'] = $.farmInfo.farmUserPro.goodsImage;
             //message = `【水果名称】${$.farmInfo.farmUserPro.name}\n`;
             //console.log(`\n【京东账号${$.index}（${$.UserName}）的${$.name}好友互助码】${$.farmInfo.farmUserPro.shareCode}\n`);
@@ -369,9 +371,10 @@ async function GetCollect() {
         }
         if ($.isNode() && !process.env.FRUITSHARECODES) {
             console.log(`您未填写助力码变量，优先进行账号内互助，再帮【zero205】助力`);
-            newShareCodes = [...(jdFruitShareArr || []), ...(newShareCodes || [])]
+            newShareCodes = [...($.jdFruitShareArr || []), ...(newShareCodes || [])]
         }
-        const readShareCodeRes = await readShareCode(jdFruitShareArr[$.index - 1]);
+
+        const readShareCodeRes = await readShareCode($.jdFruitShareArr[$.index - 1]);
         if (readShareCodeRes && readShareCodeRes.code === 200) {
             newShareCodes = [...new Set([...newShareCodes, ...(readShareCodeRes.data || [])])];
         }
