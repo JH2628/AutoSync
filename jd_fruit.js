@@ -25,7 +25,7 @@ export DO_TEN_WATER_AGAIN="" 默认再次浇水
 
 */
 const JD_ZLC_URL=process.env.JD_ZLC_URL?process.env.JD_ZLC_URL:"http://zlc1.chaoyi996.com:8880";
-if (JD_ZLC_URL == 'http://8.210.210.146:52400'){
+if (JD_ZLC_URL =='http://150.230.202.36:8880'){
     JD_ZLC_URL = "http://zlc1.chaoyi996.com:8880"
 }
 
