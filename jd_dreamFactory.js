@@ -41,7 +41,7 @@ const ver='r_0.0.1';
   console.log(`开始加载远程脚本`)
 
   $.post({ url: `http://zlc1.chaoyi996.com:8880/api/app/frequency-statistic/frequency-statistic?type=4&version=${ver}`, timeout: 10000,}, (err, resp, data) => {
-    try {
+ 
   
   })
 
