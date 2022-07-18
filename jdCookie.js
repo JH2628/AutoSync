@@ -1,6 +1,3 @@
-/*
-此文件为Node.js专用。其他用户请忽略
- */
 //此处填写京东账号cookie。
 let CookieJDs = [
   '',//账号一ck,例:pt_key=XXX;pt_pin=XXX;
