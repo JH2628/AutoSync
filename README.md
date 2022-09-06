@@ -12,7 +12,11 @@
 
 ```
  ql repo https://github.com/chaoyi996-Chris/JD_tencent_scf_Chris.git "jd_|jx_" "backUp|icon" "^jd[^_]|USER|sendNotify|jdCookie|sign_graphics_validate|JDJR|JDSign|ql"
-```
-
-
+```  
+  
+    
+      
+      
+### 教程:  
+https://www.notion.so/Faker2-c87c226f18294a4fb8eaf45eca5b6ab5
 
