@@ -1,28 +1,23 @@
 name: ccwav-sync
+
 on:
   schedule:
     - cron: '52 * * * *'
+
   workflow_dispatch:
-  watch:
-    types: started
-  repository_dispatch:
-    types: sync-ccwav-GithubSync
+  
 jobs:
   repo-sync:
-    env:
-      PAT: ${{ secrets.PAT }} 
-    runs-on: ubuntu-latest
-    if: github.event.repository.owner.id == github.event.sender.id
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          persist-credentials: false
+    if: ${{ github.repository != 'ccwav/QLScript2' }}
 
-      - name: sync ccwav-GithubSync
+    runs-on: ubuntu-latest
+    steps:  
+      - uses: actions/checkout@v3
+      - name: repo-sync
         uses: repo-sync/github-sync@v2
-        if: env.PAT
         with:
           source_repo: "https://github.com/ccwav/QLScript2"
           source_branch: "main"
           destination_branch: "ccwav"
+          sync_tags: "true"
           github_token: ${{ secrets.PAT }}
