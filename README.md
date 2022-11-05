@@ -46,7 +46,7 @@
 
 ## https://github.com/JDHelloWorld/jd_scripts
 
-    ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|getJDCookie" "backUp" "^jd[^_]|USER|utils|sendNotify|^TS|JD_" "JDHelloWorld"
+    ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_" "backUp" "^jd[^_]|USER|^TS|utils" "JDHelloWorld"
 
 ## https://github.com/gys619/Absinthe/tree/main
 
