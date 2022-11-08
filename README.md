@@ -56,14 +56,14 @@
 
     ql repo https://github.com/JH2628/AutoSync.git "jddj_" "_getck" "^jd[^_]|jddj_cookie|sendNotify" "passerby-b"
 
-~~## https://github.com/he1pu/JDHelp~~ 此存储库已被禁用 2022/09/27
+## ~~https://github.com/he1pu/JDHelp~~ 此存储库已被禁用 2022/09/27
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|getJDCookie" "activity|backUp|jd_delCoupon" "^jd[^_]|USER|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate" "he1pu"
 
-~~## faker2 backup 2022/01/29 23:34~~ faker 已重开仓库
+## ~~faker2 backup 2022/01/29 23:34~~ faker 已重开仓库
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|gua_|jddj_|getJDCookie" "activity|backUp|Coupon" "^jd[^_]|USER|sendNotify|function|utils|JDJRValidator_|ZooFaker|^sign" "faker2-backup"
     
-~~## ccwav backup~~ ccwav 已重开仓库
+## ~~ccwav backup~~ ccwav 已重开仓库
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_" "NoUsed" "ql|sendNotify|utils|USER_AGENTS|jdCookie|JS_USER_AGENTS" "ccwav-backup"
