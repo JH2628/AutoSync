@@ -1,8 +1,8 @@
 name: he1pu-sync
 
-on:
-  schedule:
-    - cron: '41 * * * *'
+#on:
+#  schedule:
+#    - cron: '41 * * * *'
 
   workflow_dispatch:
   
