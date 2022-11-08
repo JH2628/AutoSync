@@ -56,7 +56,7 @@
 
     ql repo https://github.com/JH2628/AutoSync.git "jddj_" "_getck" "^jd[^_]|jddj_cookie|sendNotify" "passerby-b"
 
-## https://github.com/he1pu/JDHelp
+~~## https://github.com/he1pu/JDHelp~~ 此存储库已被禁用 2022/09/27
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|getJDCookie" "activity|backUp|jd_delCoupon" "^jd[^_]|USER|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate" "he1pu"
 
