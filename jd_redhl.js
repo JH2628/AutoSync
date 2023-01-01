@@ -2,7 +2,7 @@
 火力助力
 添加环境变量 export HLCODE='xxx'
 日志找助力码:xxx
-0 0,20 * * * jd_hlred.js
+0 0,20 * * * jd_redhl.js
 
 */
 
