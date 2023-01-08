@@ -67,3 +67,7 @@
 ## ~~ccwav backup~~ ccwav 已重开仓库
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_" "NoUsed" "ql|sendNotify|utils|USER_AGENTS|jdCookie|JS_USER_AGENTS" "ccwav-backup"
+
+## https://github.com/smiek2121/scripts
+
+    ql repo https://github.com/JH2628/AutoSync.git "jd_|gua_" "" "ZooFaker_Necklace.js|JDJRValidator_Pure.js|sign_graphics_validate.js|cleancart_activity.js|jdCookie.js|sendNotify.js" "smiek2121"
