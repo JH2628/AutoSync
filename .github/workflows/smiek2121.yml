@@ -1,0 +1,23 @@
+name: smiek2121-sync
+
+on:
+  schedule:
+    - cron: '11 * * * *'
+
+  workflow_dispatch:
+  
+jobs:
+  repo-sync:
+    if: ${{ github.repository != 'smiek2121/scripts.git' }}
+
+    runs-on: ubuntu-latest
+    steps:  
+      - uses: actions/checkout@v3
+      - name: repo-sync
+        uses: repo-sync/github-sync@v2
+        with:
+          source_repo: "https://github.com/smiek2121/scripts.git"
+          source_branch: "master"
+          destination_branch: "smiek2121"
+          sync_tags: "true"
+          github_token: ${{ secrets.PAT }}
