@@ -4,6 +4,8 @@
 变量：COOKIE_NUM='' //运行账号数量
 jd_sevenDay_activityUrl='' // 活动链接，支持市面上大部分签到，自测
 
+//可能也会有很多毛病，请反馈
+
 cron: 7 7 7 7 7 jd_sevenDayjk.js
 */
 
