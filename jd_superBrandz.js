@@ -48,7 +48,7 @@ if ($.isNode()) {
                 continue
             }
             await getid("superBrandTaskList", "hall_1111")
-						await doTask1();
+						// await doTask1();
         }
     }
 })()
