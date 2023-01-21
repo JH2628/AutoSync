@@ -24,6 +24,10 @@
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|gua_|jddj_|jdCookie" "activity|backUp" "^jd[^_]|USER|function|utils|sendNotify|ZooFaker_Necklace.js|JDJRValidator_|sign_graphics_validate|ql|JDSignValidator" "faker3"
 
+## https://github.com/chaoyi996-Chris/JD_tencent_scf_Chris （单拉助力池脚本使用，本库仅包含 农场 种豆 萌宠 工厂 健康 闪购盲盒6个脚本, 拉取之后禁用你系统里现有的）
+
+    ql repo https://github.com/JH2628/AutoSync.git "jd_|jx_|jdCookie" "backUp|icon" "^jd[^_]|USER|sendNotify|sign_graphics_validate|JDJR|JDSign|ql" "JD_tencent_scf_Chris"
+
 ## https://github.com/ccwav/QLScript2 （青龙2.10.3之后版本拉库命令，包含sendNotify）
 
     ql repo https://github.com/JH2628/AutoSync.git "jd_" "NoUsed" "ql|sendNotify|utils|USER_AGENTS|jdCookie|JS_USER_AGENTS" "ccwav"
