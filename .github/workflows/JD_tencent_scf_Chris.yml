@@ -1,0 +1,23 @@
+name: JD_tencent_scf_Chris-sync
+
+on:
+  schedule:
+    - cron: '38 * * * *'
+
+  workflow_dispatch:
+  
+jobs:
+  repo-sync:
+    if: ${{ github.repository != 'chaoyi996-Chris/JD_tencent_scf_Chris.git' }}
+
+    runs-on: ubuntu-latest
+    steps:  
+      - uses: actions/checkout@v3
+      - name: repo-sync
+        uses: repo-sync/github-sync@v2
+        with:
+          source_repo: "https://github.com/chaoyi996-Chris/JD_tencent_scf_Chris.git"
+          source_branch: "main"
+          destination_branch: "JD_tencent_scf_Chris"
+          sync_tags: "true"
+          github_token: ${{ secrets.PAT }}
